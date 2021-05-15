@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+ 
+<html>
+    <head>
+    <style>
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.black-background {
+  background-color: black;
+}
+
+.thin-gray-border {
+  border-color: slategray;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+
+}
+
+#image {
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+#img-caption {
+  font-size: 35px;
+  font: bold;
+  color:royalblue;
+
+}
+
+#img-div {
+ width: auto;
+ max-width:none;
+ margin: auto;
+ height: auto;
+ text-align: center;
+
+}
+#tribute-link {
+  color: red; 
+  font-weight: bold;
+}
+#tribute-info {
+  justify-content: center;
+}
+#title {
+
+font-size: 35px;
+color:royalblue;
+font: bold;
+
+}
+
+#context {
+
+  color: royalblue;
+  font-size: 20px;
+}
+
+.center {
+  margin:auto;
+  width: 38%;
+  border: 3px skyblue;
+  padding: 10px;
+  text-align: center;
+}
+
+
+    </style>
+       
+    </head>
+ <body>
+     <div id="main" class="black-background">
+       
+            <h1 id="title" class="center">Killua Zoldyck</h1>
+            <h1 id="title" class="center">キルア゠ゾルディック</h1>
+        
+    
+      <div id="img-div" class="center">
+         <div class="row">
+           <div class="column"></div>
+            <div class="column">
+            <img src="Images/Kilua.jpg" alt="Killua" id="image" class="thin-gray-border"> 
+            <img src="Images/Killua Family.png" alt= "Killua Zoldyck family" id="image"class="thin-gray-border">
+            <img src="Images/Hunter-x-Hunter.jpg" alt="Killua" id="image"class="thin-gray-border"> 
+         </div>
+         <div class="column">
+            <img src="Images/l.png" alt="Killua" id="image"class="thin-gray-border"> 
+            <img src="Images/gang.jpg" alt="Killua" id="image"class="thin-gray-border"> 
+            <img src="Images/Gon and Killua.jpg" alt="Killua" id="image"class="thin-gray-border">
+            <img src="Images/the-best-killua-quotes.jpg" alt="Killua" id="image" class="thin-gray-border">
+         </div>
+         <div class="column"></div>
+        </div>
+        <p id="img-caption" class="center"> <em>Self Healing and Trauma </em></p>
+      </div>
+         
+      
+
+
+      <div id="tribute-info" class="center">
+        
+            <p id="context" class="thin-gray-border"> - He is the third child of Silva and Kikyo Zoldyck. The true heir of their Assasin Family. He runs away from home in search of his own destiny. </p>
+            <p id="context" class="thin-gray-border">After many years of beating and domination by his family. He decides to run away from home and become a rookie hunter.</p>
+            <p id="context" class="thin-gray-border"> Throughtout the journey Killua meets his first friend, Gon Freecss. Now bestfriends, Killua was able to experience the love of a true Friendship.</p>
+            <p id="context" class="thin-gray-border">Before defeating the Kamera ants, Killua needed to deal with an internal battle. He was trying to heal the trauma his brother had caused him. After the trauma was healed, Killua was able to become his best self and his powers grew even stronger. Making him and his sister, Alluka Zoldyck, the two most powerful.</p>
+  
+      </div>
+
+      <div class="center">
+         <a href="https://hunterxhunter.fandom.com/wiki/Killua_Zoldyck" target="_blank" id="tribute-link" class="center">Learn more about Killua in Hunterpedia.</a>
+    </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+ </body>
+
+</html>
